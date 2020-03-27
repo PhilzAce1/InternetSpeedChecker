@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internet Speecd checker</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo"><img src="image/Logo.png" alt="Logo" /></div>
+      <div class="content">
+        <div id="result">
+          <div id="number">0.0</div>
+          <div id="unit">Mbps</div>
+        </div>
+        <div class="button_container">
+          <button id="reload">update</button>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer_head">
+          More Information
+        </div>
+        <div class="infos">
+          <div class="info_content">
+            Type:
+            <div id="type"></div>
+          </div>
+          <div class="info_content">
+            Rtt :
+            <div id="rtt"></div>
+          </div>
+          <div class="info_content">
+            DataSaver :
+            <div id="datasaver"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="js/index.js"></script>
+  </body>
+</html>
